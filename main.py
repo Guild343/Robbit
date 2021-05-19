@@ -238,6 +238,7 @@ async def жалоб(ctx):
     await ctx.send(embed = embed)
     await ctx.message.add_reaction('<a:3_:843027198419140648>')  
 
+
 @bot.command()
 async def main(ctx,*, arg = None):
     author = ctx.message.author
